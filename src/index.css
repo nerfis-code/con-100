@@ -1,0 +1,70 @@
+:root {
+  --primary-100: #FF7F50;
+  --primary-200: #dd6236;
+  --primary-300: #8f1e00;
+  --accent-100: #8B4513;
+  --accent-200: #ffd299;
+  --text-100: #000000;
+  --text-200: #2c2c2c;
+  --bg-100: #F7EEDD;
+  --bg-200: #ede4d3;
+  --bg-300: #c4bcab;
+
+  font-family: sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text-200);
+  background-color: var(--bg-100);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
